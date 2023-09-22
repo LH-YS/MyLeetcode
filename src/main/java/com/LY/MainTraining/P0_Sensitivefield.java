@@ -54,6 +54,7 @@ public class P0_Sensitivefield {
                 tempStr+=chars[i];
             }
         }
+
         //解析后判断
         if(index<0||index>list.size()-1){
             //如果不合法
