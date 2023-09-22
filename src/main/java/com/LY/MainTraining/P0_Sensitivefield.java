@@ -54,7 +54,10 @@ public class P0_Sensitivefield {
                 tempStr+=chars[i];
             }
         }
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
         //解析后判断
         if(index<0||index>list.size()-1){
             //如果不合法
