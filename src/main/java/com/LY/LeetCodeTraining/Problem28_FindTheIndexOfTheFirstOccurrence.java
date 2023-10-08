@@ -37,6 +37,7 @@ public class Problem28_FindTheIndexOfTheFirstOccurrence {
         int i = 2;
         int cn = 0;//cn位置与i-1位置比较
         while (i<next.length){
+
             if (str[i-1]==str[cn]){
                 next[i++] = ++cn;
             }else if (cn>0){
