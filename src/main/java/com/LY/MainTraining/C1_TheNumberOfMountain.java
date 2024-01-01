@@ -3,7 +3,6 @@ package com.LY.MainTraining;
 import java.util.Scanner;
 
 public class C1_TheNumberOfMountain {
-
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String[] nums_str = scanner.nextLine().split(", ");
