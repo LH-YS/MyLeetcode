@@ -62,7 +62,6 @@ public class C228_FamilyGames {
                 }
             }
         }
-
         return record[end[0]][end[1]][1]==Integer.MIN_VALUE?-1:record[end[0]][end[1]][1];
     }
 }
